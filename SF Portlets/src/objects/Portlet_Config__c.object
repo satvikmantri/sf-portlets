@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>Columns__c</fullName>
+        <label>Columns</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Portlet_Width__c</fullName>
+        <label>Portlet Width</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Section_Subtitle__c</fullName>
+        <label>Section Subtitle</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Section_Title__c</fullName>
+        <label>Section Title</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Show_Header__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Show Header/Sidebar</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Show_Section_Bar__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Show Section Bar</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Theme__c</fullName>
+        <label>Theme</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Blacktie</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Default</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Redmond</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SouthStreet</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <label>Portlet Config</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>PC-{00000}</displayFormat>
+        <label>Portlet Config Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Portlet Config</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>ColumnValidate</fullName>
+        <active>true</active>
+        <errorConditionFormula>Columns__c  &lt; 2  ||  Columns__c  &gt; 5</errorConditionFormula>
+        <errorDisplayField>Columns__c</errorDisplayField>
+        <errorMessage>Column value must be 2 minimum and 5 maximum</errorMessage>
+    </validationRules>
+</CustomObject>
