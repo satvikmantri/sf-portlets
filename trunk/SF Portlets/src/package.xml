@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>DBData</members>
+        <members>Portlet</members>
+        <members>PortletConfig</members>
+        <members>PortletHomeController</members>
+        <members>TestSFPortlets</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Portlet</members>
+        <members>PortletHeader</members>
+        <members>PortletSectionHeader</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>PortletHome</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>SF_Portlets</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Portlet_Config__c</members>
+        <members>Portlet__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Portlet_Config__c-Portlet Config Layout</members>
+        <members>Portlet__c-Portlet Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>sf_portlets_jquery</members>
+        <name>StaticResource</name>
+    </types>
+    <version>16.0</version>
+</Package>
