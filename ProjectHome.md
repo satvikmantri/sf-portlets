@@ -1,0 +1,1 @@
+"SF Portlets" project is configurable , easy to install/setup, and you don't need to think about BASIC BUILDING BLOCKS, all is created and ready to use for you, you just need to concentrate on client extra requirement From that point where this project Ends.
